@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSenderApp", "EventHubSenderApp.csproj", "{FF6DC47E-FC51-49D2-BBBF-8E9EF76054DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubReceiverApp", "..\EventHubReceiverApp\EventHubReceiverApp.csproj", "{5414CFE6-3494-4651-AE71-061DAF57994C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF6DC47E-FC51-49D2-BBBF-8E9EF76054DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6DC47E-FC51-49D2-BBBF-8E9EF76054DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6DC47E-FC51-49D2-BBBF-8E9EF76054DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6DC47E-FC51-49D2-BBBF-8E9EF76054DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5414CFE6-3494-4651-AE71-061DAF57994C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5414CFE6-3494-4651-AE71-061DAF57994C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5414CFE6-3494-4651-AE71-061DAF57994C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5414CFE6-3494-4651-AE71-061DAF57994C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E29DEE6-8478-4DE1-AB4A-2B774A632205}
+	EndGlobalSection
+EndGlobal
